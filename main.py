@@ -43,5 +43,8 @@ def loan_approval():
     print(mail,passd)    
     return render_template('completion.html')
 
+def decode_strings():
+    return
+
 server.run(debug=True)
 
